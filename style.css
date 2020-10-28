@@ -1,0 +1,250 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url(assets/Quicksand.otf);
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(assets/Poppins.ttf);
+}
+
+.h-btn  {
+    height: 100%;
+}
+
+.h-btn:hover {
+    color:  rgb(3, 104, 199);
+}
+
+.title {
+    margin: auto;
+    display: inline-block;
+    margin: auto;
+    border-bottom: 2px #fff solid;
+    padding: 5px 10px;
+    margin-bottom: 50px;
+}
+
+.title h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+/* ==================================== */
+
+.navbar {
+    background-color: rgb(0, 13, 197);
+}
+
+.navbar-brand a{
+    font-family: 'Poppins';
+    font-size: 30px;
+    color: #fff;
+}
+
+.navbar-brand a:hover {
+    color: rgb(207, 207, 207);
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.navbar-brand span {
+    font-size: 10px;
+    color: #fff;
+
+}
+
+.navbar-nav {
+    font-family: 'Quicksand';
+}
+
+.nav-link {
+    color: #fff;
+    transition: 0.5s;
+    margin: 0 10px;
+    font-weight: bolder;
+}
+
+.nav-link:hover { 
+    background-color: #fff;
+    color: rgb(3, 104, 199);
+}
+
+.navbar-toggler{
+    width: 47px;
+    height: 34px;
+    background-color: rgb(3, 104, 199);
+    border:none;
+}
+
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: rgb(250, 250, 250);
+    margin-bottom: 5px;
+}
+
+/* ==================================== */
+
+.jumbo {
+    padding: 50px 0;
+    background: linear-gradient(rgb(0, 13, 197), rgb(118, 0, 197));
+}
+
+.jumbo-image {
+    width: 100%;
+}
+
+.jumbo-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.jumbo-text {
+    width: 100%;
+    padding: 50px;
+}
+
+.jumbo-text h1 {
+    color: #fff;
+}
+
+.jumbo-text p {
+    color: #fff;
+    text-align: justify;
+}
+
+/* ==================================== */
+
+
+.about {
+    width: 100%;
+    padding: 50px;
+    background-color: rgb(118, 0, 197);
+    color: #fff;
+}
+
+.about-text {
+    
+}
+
+
+.about-image {
+    
+}
+
+.about-image img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* ==================================== */
+
+
+.features {
+    width: 100%;
+    padding: 50px;
+    background-color: rgb(118, 0, 197);
+    color: #fff;
+}
+
+
+/* ==================================== */
+
+
+.pricing {
+    width: 100%;
+    padding: 50px;
+    background-color: rgb(118, 0, 197);
+    color: #fff;
+}
+
+.card-body {
+    background-color:  rgb(118, 0, 197);
+}
+
+
+.card-title {
+    font-size: 40px;
+    text-align: center;
+}
+
+.card-price {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+
+/* ==================================== */
+
+
+.social-footer {
+    background-color: #fff;
+    padding: 100px;
+}
+
+.social-title {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.social-title h3 {
+    font-size: 40px;
+}
+
+.social {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.social i {
+    font-size: 60px;
+    margin: 10px;
+}
+
+.nav-footer {
+	min-height: 400px;
+	background-color: rgb(32, 32, 32);
+	padding: 40px;
+	color: #fff;
+}
+
+.nav-footer p {
+	color: rgba(255, 255, 255, 0.774);
+}
+
+.nav-footer a {
+	color: rgba(255, 255, 255, 0.774);
+}
+
+.nav-footer a:hover {
+	color: #fff;
+}
+
+.nav-footer h4 {
+	padding: 10px 0;
+}
+
+
+.copy-footer {
+    height: 100px;
+	background-color: rgb(20, 20, 20);
+}
+
+.copy-footer p {
+	font-size: 15px;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.copyright {
+	height: 40px;
+}
